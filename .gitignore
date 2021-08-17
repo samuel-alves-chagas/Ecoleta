@@ -5,7 +5,6 @@ package-lock.json
 src/database/database.sqlite
 src/database/database.sqlite-journal
 *.sqlite-journal
-*.json
-uploads/*
-!uploads/.gitkeep
-*.sqlite
+!package.json
+!tsconfig.json
+.expo
